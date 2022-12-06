@@ -3,6 +3,10 @@ using SnakeAndLadder1;
 
 Console.WriteLine("Welcome to Snake And Ladder Program");
 
+Console.WriteLine("Calling ChecksForOption");
+ChecksForOption checks = new ChecksForOption();
+checks.checkoption();
+
 Console.WriteLine("Calling RollstheDice");
 RollstheDice rollstheDice = new RollstheDice();
 rollstheDice.Dice();
