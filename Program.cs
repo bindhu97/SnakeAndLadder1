@@ -3,6 +3,10 @@ using SnakeAndLadder1;
 
 Console.WriteLine("Welcome to Snake And Ladder Program");
 
+Console.WriteLine("Calling Player Exact Winning Position");
+ExactWinningPosition ExactWinning = new ExactWinningPosition();
+ExactWinning.Exact();
+
 Console.WriteLine("Calling Player Reaches Winning Position");
 ReachesWinningPosition winningPosition = new ReachesWinningPosition();
 winningPosition.Reaches();
