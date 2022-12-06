@@ -3,6 +3,10 @@ using SnakeAndLadder1;
 
 Console.WriteLine("Welcome to Snake And Ladder Program");
 
+Console.WriteLine("Calling Player Reaches Winning Position");
+ReachesWinningPosition winningPosition = new ReachesWinningPosition();
+winningPosition.Reaches();
+
 Console.WriteLine("Calling ChecksForOption");
 ChecksForOption checks = new ChecksForOption();
 checks.checkoption();
